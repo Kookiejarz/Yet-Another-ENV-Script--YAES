@@ -1,6 +1,6 @@
 [中文版](./README.zh.md)
 
-# runpod_env_script
+# Yet Another ENV Script
 
 ![License](https://img.shields.io/github/license/kookiejarz/runpod_env_script)
 ![Python](https://img.shields.io/badge/python-3.12-blue)
