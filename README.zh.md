@@ -1,6 +1,11 @@
 [English](./README.md)
 
 # runpod_env_script
+![License](https://img.shields.io/github/license/kookiejarz/runpod_env_script)
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![CUDA](https://img.shields.io/badge/CUDA-13.0-green)
+![uv](https://img.shields.io/badge/package%20manager-uv-purple)
+![Platform](https://img.shields.io/badge/platform-Linux-yellow)
 
 一个专为 RunPod 及其它 Linux 环境设计的 AI 训练与推理环境一键配置脚本。通过 `uv` 高效管理依赖，并集成 Hugging Face 高性能传输模式。
 
@@ -29,7 +34,7 @@ curl -sSL https://raw.githubusercontent.com/kookiejarz/runpod_env_script/main/se
 source activate_quant.sh
 ```
 
-包含：`llmcompressor`、`transformers`、`accelerate`、`datasets`、`pandas`、`huggingface_hub[cli,hf_transfer]`
+包含：`llmcompressor`, `transformers`, `accelerate`, `datasets`, `pandas`,`torchvision`,`sentencepiece`, `huggingface_hub[cli,hf_transfer]`
 
 **2. 进入推理环境（vLLM）**
 
