@@ -2,6 +2,12 @@
 
 # runpod_env_script
 
+![License](https://img.shields.io/github/license/kookiejarz/runpod_env_script)
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![CUDA](https://img.shields.io/badge/CUDA-13.0-green)
+![uv](https://img.shields.io/badge/package%20manager-uv-purple)
+![Platform](https://img.shields.io/badge/platform-Linux-yellow)
+
 A streamlined one-click environment setup script designed for RunPod and other Linux-based AI development environments. It leverages `uv` for high-speed dependency management and integrates Hugging Face high-performance transfer mode.
 
 ## 🚀 Quick Start
@@ -29,7 +35,7 @@ After the script finishes, two activation scripts are generated in your current 
 source activate_quant.sh
 ```
 
-Includes: `llmcompressor`, `transformers`, `accelerate`, `datasets`, `pandas`, `huggingface_hub[cli,hf_transfer]`
+Includes: `llmcompressor`, `transformers`, `accelerate`, `datasets`, `pandas`,`torchvision`,`sentencepiece`, `huggingface_hub[cli,hf_transfer]`
 
 **2. Activate inference environment (vLLM)**
 
